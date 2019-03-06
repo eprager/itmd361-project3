@@ -1,2 +1,5 @@
-# itmd361-project1
-Personal Website with Resume
+# itmd361-project2
+
+Emma Prager
+
+Personal Website with Resume (CSS)
