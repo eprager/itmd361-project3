@@ -25,6 +25,10 @@ h1 {
 	font-size: x-large;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 .navigation{
 	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 	font-weight: 300;
@@ -52,6 +56,15 @@ h1 {
 	font-style: bold;
 }
 
+.resume{
+  width: 50%;
+  min-height: 100%;
+	float: right;
+	font-family: 'Poppins', sans-serif;  
+	text-align: left;
+	font-style: bold;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -71,13 +84,13 @@ img {
 	line-height: 50px;
 }
 
-ul {
+.navigation ul {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
 }
 
-ul li {
+.navigation ul li {
   display:inline;
 }
 
@@ -110,5 +123,11 @@ video {
   background-color: black;
   padding: 20px;
   font-family:'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+#icons {
+  width: 50%;
+  height: auto;
   margin-bottom: 20px;
 }
