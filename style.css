@@ -58,6 +58,10 @@ img {
   border-radius: 2%;
 }
 
+#welcome {
+  width: 70%;
+}
+
 .footer{
 	clear: both;
 	background: lightblue;
