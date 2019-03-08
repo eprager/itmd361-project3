@@ -127,5 +127,7 @@ video {
 .icons {
   width: 50%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
