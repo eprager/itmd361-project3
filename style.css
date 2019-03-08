@@ -87,12 +87,24 @@ hr {
 }
 
 video {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 50%;
   height: auto;
+  color: white;
+}
+
+.polaroid {
+	border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  font-family:'Poppins', sans-serif;
+  margin-bottom: 20px;
 }
