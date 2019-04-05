@@ -7,14 +7,14 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: gray;
+  color:  #3498db ;
   text-decoration: none;
 }
 
 .quote{
 	font-family:'Bad Script', cursive;
 	font-size: large;
-	color: lightblue;
+	color: #3498db;
   text-align: center;
 }
 
@@ -75,9 +75,9 @@ img {
 
 .footer{
 	clear: both;
-	background: lightblue;
+	color:  #3498db;
 	text-align: center;
-  font-family: Helvetica;
+  font-family: 'Poppins', sans-serif; 
   height: 50px;
 	line-height: 50px;
 }
@@ -118,7 +118,7 @@ video {
 
 .polaroid {
 	border-radius: 5px;
-  background-color: black;
+  background-color:   #808b96;
   padding: 20px;
   font-family:'Poppins', sans-serif;
   margin-bottom: 20px;
