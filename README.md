@@ -1,5 +1,11 @@
-# itmd361-project2
+# itmd361-project3
 
 Emma Prager
 
-Personal Website with Resume (CSS)
+ITMD 361
+
+Illinois Institute of Technology
+
+Personal Website with Resume
+
+CSS, media queries, and add a little JavaScript
