@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .quote {
     font-size: 80%;
   }
@@ -44,5 +44,59 @@
     font-size: small;
     border-radius: 4px;
     padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .quote {
+    font-size: 90%;
+  }
+
+  .lefthalfcontent {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .righthalfcontent {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .footer{
+    overflow: wrap;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .resume {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 100%;
+  }
+
+  .gallery {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .polaroid {
+    font-size: small;
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+  img {
+    max-width: 70%;
+    height: auto;
   }
 }
