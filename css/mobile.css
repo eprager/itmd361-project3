@@ -95,8 +95,7 @@
     padding: 10px;
   }
 
-  img {
-    max-width: 70%;
-    height: auto;
+  #welcome {
+    width: 464px;
   }
 }
