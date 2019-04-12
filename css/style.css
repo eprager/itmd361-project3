@@ -71,6 +71,14 @@ h2 {
   margin-right: 10%;
 }
 
+.map{
+  width: 40%;
+  min-height: 100%;
+  position: relative;
+	font-family: 'Poppins', sans-serif;  
+  text-align: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
