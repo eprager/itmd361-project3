@@ -4,6 +4,7 @@
   background-color: #3498db;
   margin:0 auto;
   overflow: hidden;
+  border-radius: 2px;
 }
 
 #map {
