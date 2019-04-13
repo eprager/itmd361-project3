@@ -1,11 +1,11 @@
 #wrapper {
-  width: 850px;
-  height: 600px;
+  width: 760px;
+  height: 560px;
   background-color: #3498db;
   margin:0 auto;
   overflow: hidden;
 }
-#canvas {
+#map {
   width: 700px;
   height: 500px;
   background-color: #ccc;
