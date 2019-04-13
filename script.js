@@ -4,7 +4,7 @@ function initMap(){
 	var marker = new google.maps.Marker({
 		position: emma,
 		map: map,
-		icon: 'images/icon.ico'
+		icon: 'images/location.png'
 	});
 }
 google.maps.event.addDomListener(window, 'load', initMap);
