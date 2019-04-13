@@ -1,13 +1,14 @@
 #wrapper {
-  width: 760px;
-  height: 560px;
+  width: 730px;
+  height: 530px;
   background-color: #3498db;
   margin:0 auto;
   overflow: hidden;
 }
+
 #map {
   width: 700px;
   height: 500px;
   background-color: #ccc;
-  margin: 30px auto;
+  margin: 15px auto;
 }
