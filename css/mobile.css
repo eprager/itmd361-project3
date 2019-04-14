@@ -18,10 +18,6 @@
     font-size: 100%;
   }
 
-  .footer{
-    overflow: wrap;
-  }
-
   .icons {
     display: none;
   }
@@ -65,10 +61,6 @@
     margin-right: 5%;
     text-align: center;
     font-size: 100%;
-  }
-
-  .footer{
-    overflow: wrap;
   }
 
   .icons {
