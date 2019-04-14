@@ -16,5 +16,3 @@ function initMap() {
 		infowindow.open(map, marker);
 	});
 }
-
-google.maps.event.addDomListener(window, 'load', initMap);
