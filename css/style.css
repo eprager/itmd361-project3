@@ -169,6 +169,10 @@ video {
   display: none;
 }
 
+#start {
+  display: block;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
