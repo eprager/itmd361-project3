@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Emma Prager | Gallery</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/ico" />
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+      <h1>EMMA PRAGER</h1>
+      <div class="navigation">
+        <ul>
+          <li><strong><a href="index.html">HOME</a></strong></li>
+          <li><strong><a href="resume.html">RESUME</a></strong></li>
+          <li><strong><a href="#">GALLERY</a></strong></li>
+          <li><strong><a href="map.html">MAP</a></strong></li>
+        </ul>
+      </div>
+      <div class="quote">
+        <p>life is short, live your dream and share your passion. -holstee manifesto</p>
+      </div>
+      <hr>
+    </header>
+    <div class="gallery">
+       <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/chicago.jpg" style="width:100%">
+            <div class="text">Chicago River | January 2019</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/iit.jpg" style="width:100%">
+            <div class="text">Siegel Hall, IIT | May 2018</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/flowers.JPG" style="width:100%">
+            <div class="text">Flowers, Garfield Park Conservatory | May 2018</div>
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div> 
+      <section class="polaroid">
+        <img src="images/chicago.jpg" alt="Chicago">
+        <h3>Chicago River | January 2019</h3>
+      </section>
+      <section class="polaroid">
+        <img src="images/iit.jpg" alt="IIT">
+        <h3>Siegel Hall, IIT | May 2018</h3>
+      </section>
+      <section class="polaroid">
+        <img src="images/flowers.JPG" alt="Flowers">
+        <h3>Flowers, Garfield Park Conservatory | May 2018</h3>
+      </section>
+      <section class="polaroid">
+        <video src="images/beach.mp4" controls></video>
+        <h3>Sunset at 31st Street Beach | April 2018</h3>
+      </section>
+    </div>
+    <footer>
+      <section class="footer">
+        <h6>This website is developed by Emma Prager | Last updated 14 April 2019.</h6>
+      </section>
+    </footer>
+  </body>
+</html>
